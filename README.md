@@ -1,13 +1,13 @@
 # Horiseon-code-refactor
 1'st weeks challenge. Refactor the given HTML/CSS codes. 
 
-**User Story:**
+### User Story:
 
 <p>AS A marketing agency<br>
    I WANT a codebase that follows accessibility standards<br>
    SO THAT our own site is optimized for search engines</p>
 
-**Acceptance Criteria:**
+### Acceptance Criteria:
 <ul>
  <li>GIVEN a webpage meets accessibility standards</li>
  <li>WHEN I view the source code</li>
@@ -22,6 +22,15 @@
  <li>THEN I find a concise, descriptive title</li>
 </ul>
 
-**Task status:**
+### Task status:
 
 All creterias a completed.
+
+### Credits:
+
+**Author:** Mehadi Khan
+
+**Resources:**
+- https://www.w3schools.com/html/default.asp
+- https://www.w3schools.com/css/default.asp
+- https://docs.github.com/en/get-started
