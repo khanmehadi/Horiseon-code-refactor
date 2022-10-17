@@ -6,25 +6,27 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Welcome to Horiseon</title>
 </head>
-<!--Converted all <div> tags to <section> tags for better readablility-->
-<body>
-    <header class="header">
-        <h1>Hori<span id="seo">seo</span>n</h1>
-        <section>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a> <!--Added a href attribute/value to link the list item to an image-->
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </section>
-    </header>
 
+<!-- Restructured the header container to be set outside of the body container -->
+<header class="header">
+    <h1>Hori<span id="seo">seo</span>n</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="#search-engine-optimization">Search Engine Optimization</a> <!--Added a href attribute/value to link the list item to an image-->
+            </li>
+            <li>
+                <a href="#online-reputation-management">Online Reputation Management</a>
+            </li>
+            <li>
+                <a href="#social-media-marketing">Social Media Marketing</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <!-- Converted all parent div tags to seciton tags -->
     <section class="hero"></section>
 
     <section class="content">
@@ -74,13 +76,14 @@
             </p>
         </div>
     </section>
-    
-    <section class="footer">
-        <h4>Made with ❤️️ by Horiseon</h4> <!--Updated the <h2> tag to <h4> tag to follow a sequential order of the <h> tags hierarchy-->
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </section>
 </body>
+
+<!-- Restructured the footer container to be set outside of the body container -->
+<footer class="footer">
+    <h4>Made with ❤️️ by Horiseon</h4> <!--Updated the <h2> tag to <h4> tag to follow a sequential order of the <h> tags hierarchy-->
+    <p>
+        &copy; 2019 Horiseon Social Solution Services, Inc.
+    </p>
+</footer>
 
 </html>
